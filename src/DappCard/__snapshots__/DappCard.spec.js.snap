@@ -1,0 +1,275 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render correctly a builtin dapp 1`] = `
+<Card>
+  <CardContent>
+    <DappIcon
+      app={
+        Object {
+          "id": "123",
+          "name": "Test",
+          "type": "builtin",
+        }
+      }
+      className="ui centered image undefined"
+      raised={true}
+      size="normal"
+    />
+    <CardHeader>
+      Test
+    </CardHeader>
+    <CardMeta />
+    <CardDescription>
+      <Label>
+        <FormattedMessage
+          defaultMessage="By Parity"
+          id="dapp.visible.builtinLabel"
+          values={Object {}}
+        />
+      </Label>
+      <DappVouchFor
+        dapp={
+          Object {
+            "id": "123",
+            "name": "Test",
+            "type": "builtin",
+          }
+        }
+      />
+    </CardDescription>
+  </CardContent>
+  <CardContent
+    extra={true}
+  >
+    <Button
+      as="button"
+      basic={true}
+      content={
+        <FormattedMessage
+          defaultMessage="Open"
+          id="dapp.visible.openDapp"
+          values={Object {}}
+        />
+      }
+      icon="external"
+      onClick={[Function]}
+      secondary={true}
+    />
+    <Button
+      as="button"
+      basic={true}
+      content={
+        <FormattedMessage
+          defaultMessage="Add to home"
+          id="dapp.visible.addDapp"
+          values={Object {}}
+        />
+      }
+      icon="toggle off"
+      onClick={[Function]}
+      primary={true}
+    />
+  </CardContent>
+</Card>
+`;
+
+exports[`should render correctly a local dapp 1`] = `
+<Card>
+  <CardContent>
+    <DappIcon
+      app={
+        Object {
+          "id": "123",
+          "name": "Test",
+          "type": "local",
+        }
+      }
+      className="ui centered image undefined"
+      raised={true}
+      size="normal"
+    />
+    <CardHeader>
+      Test
+    </CardHeader>
+    <CardMeta />
+    <CardDescription>
+      <Label>
+        <FormattedMessage
+          defaultMessage="Local Dapp"
+          id="dapp.visible.localLabel"
+          values={Object {}}
+        />
+      </Label>
+      <DappVouchFor
+        dapp={
+          Object {
+            "id": "123",
+            "name": "Test",
+            "type": "local",
+          }
+        }
+      />
+    </CardDescription>
+  </CardContent>
+  <CardContent
+    extra={true}
+  >
+    <Button
+      as="button"
+      basic={true}
+      content={
+        <FormattedMessage
+          defaultMessage="Open"
+          id="dapp.visible.openDapp"
+          values={Object {}}
+        />
+      }
+      icon="external"
+      onClick={[Function]}
+      secondary={true}
+    />
+    <Button
+      as="button"
+      basic={true}
+      content={
+        <FormattedMessage
+          defaultMessage="Add to home"
+          id="dapp.visible.addDapp"
+          values={Object {}}
+        />
+      }
+      icon="toggle off"
+      onClick={[Function]}
+      primary={true}
+    />
+  </CardContent>
+</Card>
+`;
+
+exports[`should render correctly when hidden 1`] = `
+<Card>
+  <CardContent>
+    <DappIcon
+      app={
+        Object {
+          "id": "123",
+          "name": "Test",
+        }
+      }
+      className="ui centered image undefined"
+      raised={true}
+      size="normal"
+    />
+    <CardHeader>
+      Test
+    </CardHeader>
+    <CardMeta />
+    <CardDescription>
+      <DappVouchFor
+        dapp={
+          Object {
+            "id": "123",
+            "name": "Test",
+          }
+        }
+      />
+    </CardDescription>
+  </CardContent>
+  <CardContent
+    extra={true}
+  >
+    <Button
+      as="button"
+      basic={true}
+      content={
+        <FormattedMessage
+          defaultMessage="Open"
+          id="dapp.visible.openDapp"
+          values={Object {}}
+        />
+      }
+      icon="external"
+      onClick={[Function]}
+      secondary={true}
+    />
+    <Button
+      as="button"
+      content={
+        <FormattedMessage
+          defaultMessage="Added to home"
+          id="dapp.visible.addedDapp"
+          values={Object {}}
+        />
+      }
+      disabled={false}
+      icon="toggle on"
+      onClick={[Function]}
+      primary={true}
+    />
+  </CardContent>
+</Card>
+`;
+
+exports[`should render correctly when visible 1`] = `
+<Card>
+  <CardContent>
+    <DappIcon
+      app={
+        Object {
+          "id": "123",
+          "name": "Test",
+        }
+      }
+      className="ui centered image undefined"
+      raised={true}
+      size="normal"
+    />
+    <CardHeader>
+      Test
+    </CardHeader>
+    <CardMeta />
+    <CardDescription>
+      <DappVouchFor
+        dapp={
+          Object {
+            "id": "123",
+            "name": "Test",
+          }
+        }
+      />
+    </CardDescription>
+  </CardContent>
+  <CardContent
+    extra={true}
+  >
+    <Button
+      as="button"
+      basic={true}
+      content={
+        <FormattedMessage
+          defaultMessage="Open"
+          id="dapp.visible.openDapp"
+          values={Object {}}
+        />
+      }
+      icon="external"
+      onClick={[Function]}
+      secondary={true}
+    />
+    <Button
+      as="button"
+      basic={true}
+      content={
+        <FormattedMessage
+          defaultMessage="Add to home"
+          id="dapp.visible.addDapp"
+          values={Object {}}
+        />
+      }
+      icon="toggle off"
+      onClick={[Function]}
+      primary={true}
+    />
+  </CardContent>
+</Card>
+`;
